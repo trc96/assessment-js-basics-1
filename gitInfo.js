@@ -10,6 +10,7 @@
 */
 
 //CODE HERE
+const gitDefinition = 'Git is a software used to track changes made to files. It allows the user to create local repositories that can later be shared through avenues such as GitHub.';
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,6 +19,7 @@
 */
 
 //CODE HERE
+const gitHubDefinition = 'GitHub is an online and either public or private library for remote repoisitories. It is the most commone way companies share code throughout their software teams and aroudn the world. It offers "distributed version control and source code manaegemnet functionality of Git, plus its own features."';
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -26,6 +28,7 @@
 */
 
 //CODE HERE
+const gitInitDefinition = 'The command "git init" initializes an empty local repository, which tells git to start tracking the file changes in that folder.';
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -34,6 +37,7 @@
 */
 
 //CODE HERE
+const gitCloneDefinition = 'The command "git clone" is meant to copy an existing repository and make a new copy of it in a new directory at another location.';
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -42,6 +46,7 @@
 */
 
 //CODE HERE
+const gitStatusDefinition = 'The command "git status" is meant to show the current state of a working directory.';
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -53,7 +58,9 @@
 */
 
 //CODE HERE
+const gitAddDefinition = 'The command "git add" adds a change in the working directory to the staging area, or rather it is being prepped to either commit or push to GitHub.';
 
+const gitAddCode = 'git add .';
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -64,7 +71,9 @@
 */
 
 //CODE HERE
+const gitCommitDefinition = 'The command "git commit" takes a snapshot of all of the files in a repo at a specific point in time. Additional commits are required in the event of additonal changes.';
 
+const gitCommitCode = 'git commit -m""';
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,3 +82,5 @@
 */
 
 //CODE HERE
+
+const gitPushDefinition = 'The command "git push" is used to upload a local repository to a remote one, likely on GitHub.';
